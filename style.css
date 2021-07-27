@@ -1,0 +1,26 @@
+.titles {
+    color: red;
+    background-color: white;
+    size: 2em;
+    font-family: fantasy;
+    padding: 5px;
+    max-width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.background {
+    /* background-color: seagreen; */
+    background-image: url(Software.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section {
+    color: white;
+    background-color: black;
+    margin: auto;
+    max-width: fit-content;
+    
+}
