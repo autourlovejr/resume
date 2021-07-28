@@ -5,16 +5,18 @@
     font-family: fantasy;
     padding: 5px;
     max-width: fit-content;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
 
 }
 
 .background {
     /* background-color: seagreen; */
-    background-image: url(Software.jpg);
+    /* background-image: url(Software.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background: linear-gradient(268deg, white, #6aaf79, transparent);
 }
 
 .section {
@@ -22,5 +24,24 @@
     background-color: black;
     margin: auto;
     max-width: fit-content;
-    
+    border-radius: 13px;
+    padding: .5%;
+}
+
+.me {
+    font-size: 6em;
+    background: linear-gradient(-62deg, #eeeef9, transparent);
+    padding-left: 30%;
+    font-family: fantasy;
+}
+
+.information {
+    color: white;
+    background-color: black;
+    max-width: fit-content;
+    border-radius: 13px;
+    padding: .5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5%;
 }
