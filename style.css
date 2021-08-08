@@ -34,10 +34,11 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: .5%;
+    display: none;
 }
 
 .button {
-    color: red;
+    color: rgb(79, 65, 206);
     background-color: white;
     font-size: 2em;
     font-family: fantasy;
@@ -47,4 +48,21 @@
     margin-right: auto;
     border-radius: 10px;
     margin-top: 1%;
+    display: block;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.section{
+    display: none;
+}
+
+.button:hover + .section {
+    display: block;
+}
+
+.me:hover + .information {
+    display: block;
 }
